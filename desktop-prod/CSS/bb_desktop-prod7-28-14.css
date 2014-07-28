@@ -2,7 +2,7 @@
 @import url(//fonts.googleapis.com/css?family=Magra:400,700);
 @font-face {
     font-family:"BB_font";
-    font-style:normal;
+    font-style:normal;      
     font-weight:normal;
     src:url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.eot#iefix") format("embedded-opentype"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.woff") format("woff"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.ttf") format("truetype"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.svg#gotham_ultraitalic") format("svg");
 }
