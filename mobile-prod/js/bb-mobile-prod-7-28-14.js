@@ -1,5 +1,11 @@
 <script src="/js/bootstrap.min.js" type="text/javascript"></script><script>
 $(document).ready(function () {
+ /*Hide any dollar amount that is 0.00*/
+    var $dollarAmount = $('.menu-list-item-price:contains("0.00")');
+     if($dollarAmount){
+         $dollarAmount.hide();   
+     }
+
     $('#wrap').addClass('container-fluid');
     $('.ui-res-locations-search-criteria-container, .ui-res-locations-search-result-container, .ui-res-order-date-time-input, .ui-res-order-status-container, .ui-res-menu-dropdown-container').wrapAll('<div class="center-wrapper" />');
 
