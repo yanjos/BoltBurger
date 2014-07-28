@@ -1,0 +1,2691 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu);
+@import url(//fonts.googleapis.com/css?family=Magra:400,700);
+@font-face {
+    font-family:"BB_font";
+    font-style:normal;
+    font-weight:normal;
+    src:url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.eot#iefix") format("embedded-opentype"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.woff") format("woff"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.ttf") format("truetype"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.svg#gotham_ultraitalic") format("svg");
+}
+#menu-item-6466 .menu-list-item-config .config-group-container:last-child .config-group-title:after, #menu-item-6467 .menu-list-item-config .config-group-container:last-child .config-group-title:after, #menu-item-6468 .menu-list-item-config .config-group-container:last-child .config-group-title:after {
+    color:#c33;
+    content:" (CHOOSE ONE OR MORE)";
+}
+#menu-item-6466 .menu-list-item-config .config-group-container .config-group-title:after, #menu-item-6467 .menu-list-item-config .config-group-container .config-group-title:after, #menu-item-6468 .menu-list-item-config .config-group-container .config-group-title:after {
+    color:#c33;
+    content:" (CHOOSE ONE)";
+}
+[data-title="CHOOSE ONE"] .modifier-about-link, [data-title="ADD A BOLT OF CHEESE"] .modifier-about-link, [data-title="ADD A BOLT OF BACON"] .modifier-about-link, [data-title="ADD A BOLT OF RELISH"] .modifier-about-link {
+    display:none;
+}
+.paymentMethod-input option[value=Cash] {
+    display:none!important;
+}
+.select-date-time-container select {
+    margin-right:10px;
+}
+.ui-res-address-det-container>.select-date-time-container {
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    padding-top:30px;
+}
+.estimated-pickup-time-container {
+    display:none!important;
+}
+.ui-res-order-status-container .ui-res-order-basket-items-container .container {
+    padding:5px 0!important;
+}
+.ui-res-order-status-container .container {
+    padding:0!important;
+}
+.ui-res-order-basket-items-container .descrip {
+    width:100%;
+    min-height:30px;
+}
+.ui-res-order-status-container .date-time-form-container.date-time-static.container {
+    font-weight:normal!important;
+}
+.ui-res-order-status-container {
+    font-size:14px;
+}
+.estimated-pickup-time-detail .ui-res-order-status-container a {
+    text-decoration:underline!important;
+}
+.total-container {
+    border-top:3px solid #555;
+    overflow:hidden;
+}
+.basket-items-title-container .title {
+    border-top:0 none;
+    padding-bottom:10px;
+    padding-top:0;
+    text-align:center;
+    width:100%;
+    font-family:'BB_font', sans-serif!important;
+    font-size:1.2em!important;
+    text-transform:uppercase;
+}
+.amount {
+    color:#fff!important;
+}
+.basket-items-title-container {
+    text-align:center;
+}
+.total-container.container {
+    clear:both;
+}
+.ui-res-order-step-container {
+    display:none;
+}
+.ui-res-order-status-container .date-time-form-container, .ui-res-order-status-container .basket-item-container, .ui-res-order-status-container .ui-res-order-total-container {
+    background-color:transparent!important;
+}
+.ui-product-area-wrapper.contact-us {
+    display:none!important;
+}
+.login-form {
+    background-color:transparent!important;
+}
+.order-pickup-time .ui-res-input-select {
+    margin:3px!important;
+}
+body {
+    color:#fff!important;
+    background-color:#000!important;
+    padding:0;
+    margin:0;
+    font-family:Arial, sans-serif;
+    font-size:100%
+}
+.media_img {
+    border:3px solid #404040;
+    border-radius:.5em;
+    float:left;
+    height:70px;
+    margin:0 10px 10px 0;
+    width:70px;
+}
+.article {
+    border-bottom:1px solid #404040;
+    margin:0 auto;
+    padding:20px 20px 30px;
+    width:100%;
+}
+.media_article {
+    height:100%;
+    width:75%;
+}
+.media_article>a {
+    font-weight:bold;
+    text-decoration:none;
+}
+.media_date {
+    color:#888;
+    font-size:.70em;
+    font-style:italic;
+    font-weight:normal;
+}
+.media_copy {
+    font-size:.75em;
+    font-weight:normal;
+}
+a.read_more_link {
+    text-decoration:underline!important;
+}
+.media_article a:active, .media_article a:hover {
+    text-decoration:underline!important;
+    color:#c33!important;
+}
+.specials-a, .checkout-page-a, .catering-page-a, .reviewAndCheckout-page-a, .searchLocationsResults-page-a, .orderConfirmation-page-a, .byo-page-a, .home-page-a, .company-page-a, .awards-page-a, .gift-cards-page-a, .contact-us-page-a, .privacy-policy-page-a, .terms-and-conditions-page-a, .donation-request-page-a, .search-locations-criteria-and-result-page-a, .search-locations-results-page-a, .order-date-time-page-a, .menu-page-a, .step-by-step-customization-page-a, .review-and-checkout-page-a, .order-confirmation-page-a, .order-summary-page-a, .login-page-a, .forgot-password-page-a, .create-account-page-a, .my-account-page-a, .edit-account-page-a, .reset-password-page-a, .join-our-team-page-a, .news-page-a, .locationDetails-page-a {
+    width:100%!important;
+    position:static!important
+}
+.specials-b, .checkout-page-b, .catering-page-b, .reviewAndCheckout-page-b, .searchLocationsResults-page-b, .orderConfirmation-page-b, .byo-page-b, .home-page-b, .company-page-b, .awards-page-b, .gift-cards-page-b, .contact-us-page-b, .privacy-policy-page-b, .terms-and-conditions-page-b, .donation-request-page-b, .search-locations-criteria-and-result-page-b, .search-locations-results-page-b, .order-date-time-page-b, .menu-page-b, .step-by-step-customization-page-b, .review-and-checkout-page-b, .order-confirmation-page-b, .order-summary-page-b, .login-page-b, .forgot-password-page-b, .create-account-page-b, .my-account-page-b, .edit-account-page-b, .reset-password-page-b, .join-our-team-page-b, .news-page-b, .locationDetails-page-b {
+    width:100%!important;
+    position:static!important
+}
+.specials-c, .checkout-page-c, .catering-page-c, .reviewAndCheckout-page-c, .searchLocationsResults-page-c, .orderConfirmation-page-c, .byo-page-c, .home-page-c, .company-page-c, .awards-page-c, .gift-cards-page-c, .contact-us-page-c, .privacy-policy-page-c, .terms-and-conditions-page-c, .donation-request-page-c, .search-locations-criteria-and-result-page-c, .search-locations-results-page-c, .order-date-time-page-c, .menu-page-c, .step-by-step-customization-page-c, .review-and-checkout-page-c, .order-confirmation-page-c, .order-summary-page-c, .login-page-c, .forgot-password-page-c, .create-account-page-c, .my-account-page-c, .edit-account-page-c, .reset-password-page-c, .join-our-team-page-c, .news-page-c, .locationDetails-page-c {
+    width:100%!important;
+    position:static!important;
+    clear:both;
+}
+.quote {
+    float:left;
+    width:300px;
+    padding:0 20px 10px 0;
+    margin-top:-10px;
+}
+.quote p:first-child {
+    font-size:18px;
+    font-weight:bold;
+    line-height:23px;
+}
+.quote_name {
+    font-style:italic;
+    font-size:10px;
+}
+div.past-orders-list ul.past-orders-list-header li, div.favorites-list ul.favorites-list-header li {
+    padding:5px 0;
+    border-radius:0!important;
+    background-color:#c33!important;
+}
+.past-orders-detail {
+    margin-top:10px;
+}
+.past-orders-add-to-order-btn {
+    padding:7px!important;
+    margin-top:-8px;
+}
+.delivery-charge {
+    display:none!important;
+}
+.config-option-cont a:link, a.tool-tip-product-descrip-close-link:link {
+    color:#c33!important;
+}
+.ui-datepicker-calendar a:link {
+    color:#555!important;
+}
+.regular-checkbox:checked+label:after {
+    top:-0.4em!important;
+}
+.regular-radio:checked+label:after {
+    background-color:#a00!important;
+}
+select, input {
+    font-family:sans-serif;
+}
+.ui-res-order-date-input-container select {
+    background:transparent;
+    width:210px;
+    font-size:16px;
+    line-height:1;
+    border:0;
+    border-radius:0;
+    height:34px;
+    -webkit-appearance:none;
+    padding:5px;
+    font-family:sans-serif;
+}
+.ui-res-order-time-input-container select {
+    background:transparent;
+    width:126px;
+    font-size:16px;
+    line-height:1;
+    border:0;
+    border-radius:0;
+    height:34px;
+    -webkit-appearance:none;
+    padding:5px;
+    font-family:sans-serif;
+}
+.review-and-checkout td.qty {
+    background:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/15/h/13/dropdown.image") no-repeat scroll right center #fff;
+    border-color:#fff;
+    border-style:solid;
+    border-width:2px 5px 3px 3px;
+    display:block;
+    height:20px;
+    margin-top:10px;
+    overflow:hidden;
+    padding:0!important;
+    width:37px!important;
+}
+td.qty select {
+    background:none repeat scroll 0 0 transparent;
+    border:0 none;
+    border-radius:0;
+    display:block;
+    font-size:13px;
+    height:20px;
+    line-height:1;
+    width:60px;
+    -webkit-appearance:none;
+}
+.ui-res-order-date-input-container {
+    background:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/15/h/13/dropdown.image") no-repeat scroll right center #fff;
+    border-color:#fff;
+    border-width:3px 5px 3px 3px;
+    border-style:solid;
+    height:34px;
+    overflow:hidden;
+    width:183px;
+}
+table.ui-res-create-account-input-table th {
+    text-align:left!important;
+}
+.ui-res-order-time-input-container {
+    background:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/15/h/13/dropdown.image") no-repeat scroll right center #fff;
+    border-color:#fff;
+    border-width:3px 5px 3px 3px;
+    border-style:solid;
+    height:34px;
+    overflow:hidden;
+    width:98px;
+}
+.basket-items-header .item, .basket-items-header .qty, .price {
+    font-weight:bold;
+}
+.basket-items-header {
+    border-width:3px 0;
+    border-style:solid;
+    border-color:#555;
+}
+.order-confirmation td.qty, .menu .ui-res-order-basket-items-container td.qty {
+    background:none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border:medium none;
+}
+td.qty {
+    background:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/15/h/13/dropdown.image") no-repeat scroll right center #fff;
+    border-color:#fff;
+    border-style:solid;
+    border-width:2px 5px 3px 3px;
+    display:block;
+    height:20px;
+    margin-top:10px;
+    overflow:hidden;
+    padding:0!important;
+    width:37px!important;
+}
+.sidebar_txt {
+    font-family:'BB_font';
+    font-size:1.2em;
+    line-height:1.5em;
+    margin-left:20px;
+    margin-top:310px;
+    position:absolute;
+    text-shadow:2px 2px #000;
+    text-transform:uppercase;
+    z-index:10;
+}
+.sidebarname {
+    font-size:1.3em;
+    text-decoration:none!important;
+    display:block;
+}
+h1 {
+    font-family:'BB_font', sans-serif!important;
+}
+.logout button {
+    padding:7px 15px!important
+}
+.ui-res-checkout-section-separator {
+    border:none!important;
+    height:0!important
+}
+.border-1px {
+    border:none!important
+}
+.ui-res-subsection-header {
+    background-color:transparent!important
+}
+.pre-order-btn-continue, .pre-order-btn-cancel {
+    float:left;
+    width:50%;
+    padding:10px 0!important;
+}
+.pre-order-dine-in, .order-take-out {
+    background-color:transparent!important;
+    border:0 none!important;
+    color:transparent!important;
+    padding:0!important;
+    width:0!important
+}
+.pre-order-dine-in {
+    display:none!important;
+}
+.ui-res-input-text {
+    box-shadow:none!important;
+    border:none!important
+}
+.ui-res-main-section-header-text {
+    font-size:2em!important
+}
+.ui-res-address-det-info {
+    color:#fff;
+    width:60%
+}
+a:link {
+    color:#fff!important
+}
+a:visited {
+    color:#fff!important
+}
+a:hover {
+    color:#c33!important
+}
+a:active {
+    color:#c33!important
+}
+.custom_title {
+    border-bottom:5px solid #404040!important;
+    font-family:'BB_font', sans-serif!important;
+    font-size:1.8em;
+    margin-left:243px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-top:45px;
+    position:static;
+    text-transform:uppercase;
+    width:70%;
+    color:#fff;
+}
+.custom_title_extra {
+    padding-top:75px;
+}
+.subtitle {
+    font-size:1.4em;
+    font-style:normal;
+    padding-top:15px;
+    position:static;
+    text-transform:uppercase;
+    margin-left:243px;
+    top:118px;
+    width:70%;
+    padding-left:10px;
+    color:#fff;
+}
+.diff-font {
+    text-transform:uppercase;
+    font-family:'BB_font', sans-serif!important;
+    font-size:1.2em!important;
+    padding-top:20px;
+    width:60%
+}
+.diff-font2 {
+    text-transform:uppercase;
+    font-family:'BB_font', sans-serif!important;
+    border-top:4px solid #555;
+    font-size:1.2em!important;
+    padding-top:20px;
+    width:60%
+}
+.items-count, .login {
+    color:#c33!important
+}
+.items-count:hover, .login:hover {
+    color:#fff!important;
+}
+.ui-res-update-to-zero-confirmation-title {
+    background-color:transparent!important;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/34/h/64/red_popup_txt.image?notfound=notavailable")!important
+}
+.ui-res-update-to-zero-confirmation-body {
+    min-height:70px
+}
+.ui-res-update-to-zero-confirmation-btn-ok {
+    float:left;
+    margin-left:34%;
+    padding:10px!important;
+    width:10%
+}
+.ui-res-update-to-zero-confirmation-btn-cancel {
+    float:left;
+    padding:10px!important;
+    width:10%
+}
+.subheader {
+    font-size:1.6em;
+    font-weight:bold;
+    color:#c33
+}
+.wineclubMemberChk-input, .wineclubMemberNumber-input {
+    display:none
+}
+.receive-email-wine-club-table th {
+    display:none
+}
+.nav-bar a {
+    text-decoration:none!important;
+}
+.nav-bar {
+    height:30px!important;
+}
+.nav-bar li {
+    background:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/11/h/30/bb_menu.image") no-repeat scroll 0 0 transparent!important;
+    display:inline;
+    font-weight:bold;
+    padding-bottom:0;
+    padding-left:10px!important;
+    padding-right:0;
+    padding-top:0;
+}
+.nav-bar li:first-child {
+    background:none!important
+}
+.link-separator, .link-separator-create-account {
+    display:none!important
+}
+.nav-bar ul {
+    float:right
+}
+.ui-res-header-container .ui-res-header-content-container.nav-bar {
+    background-color:#000!important;
+    padding:8px!important
+}
+.nav-bar button, .items-count {
+    background-color:transparent!important;
+    border:none!important;
+    box-shadow:none!important;
+    font-size:.85em!important;
+    font-weight:bolder;
+    letter-spacing:1.5px;
+    color:#fff;
+    font-family:'customFont45', sans-serif;
+    cursor:pointer;
+    text-transform:uppercase;
+    padding:7px 4px 7px 5px!important;
+}
+.nav-bar .welcome {
+    padding:7px 8px 7px 10px!important;
+}
+.nav-bar button:hover {
+    color:#c33
+}
+.nav-bar a.current-pg {
+    color:#c33
+}
+div.past-orders-list ul li div.past-orders-add-to-order-btn, div.favorites-list ul li div.favorites-add-to-order-btn {
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_redsml2.image')!important;
+    border:2px #555 solid!important;
+    box-shadow:.01em .01em #555!important;
+    font-family:'BB_font', sans-serif!important;
+    font-size:.7em!important;
+    text-transform:uppercase!important;
+    font-weight:200;
+    text-shadow:2px 2px 3px #000;
+    filter:dropshadow(color=#000000, offx=2, offy=2);
+}
+div.past-orders-list ul li div.past-orders-add-to-order-btn:hover, div.favorites-list ul li div.favorites-add-to-order-btn:hover {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_redsm_active2.image")!important;
+    background-color:#fff!important;
+    border:2px solid #3d3d3d!important;
+    -moz-box-shadow:inset 0 0 5px #555!important;
+    -webkit-box-shadow:inset 0 0 5px #555!important;
+    box-shadow:inset 0 0 5px #555!important;
+}
+.login-btn, .ui-res-forgot-password-btn-container button, .create-account-btn, .ui-res-my-account-view-btn-container button, .menu-home-btn, .menu-page-e button, .start-new-order-btn button, .ui-res-edit-account-btn-container button, .ui-res-reset-password-btn-container button, .proceed-btn, .add-to-order-btn, .customize-modifiers-btn, .view-menu-btn button, .change-date-time-btn button, .ui-res-checkout-btn-container button, .ui-res-contactus-form-table button, .choose-location-btn button, .ui-res-order-date-time-btn-container button, .eclub-btn {
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_redsml2.image')!important;
+}
+.login-btn:hover, .ui-res-forgot-password-btn-container button:hover, .create-account-btn:hover, .ui-res-my-account-view-btn-container button:hover, .menu-home-btn button:hover, .menu-page-e button:hover, .start-new-order-btn button:hover, .ui-res-edit-account-btn-container button:hover, .ui-res-reset-password-btn-container button:hover, .proceed-btn:hover, .add-to-order-btn:hover, .customize-modifiers-btn:hover, .view-menu-btn button:hover, .change-date-time-btn button:hover, .ui-res-checkout-btn-container button:hover, .ui-res-contactus-form-table button:hover, .choose-location-btn button:hover, .ui-res-order-date-time-btn-container button:hover, .eclub-btn:hover {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_redsm_active2.image")!important;
+    background-color:#fff!important;
+    border:2px solid #3d3d3d!important;
+    -moz-box-shadow:inset 0 0 5px #555!important;
+    -webkit-box-shadow:inset 0 0 5px #555!important;
+    box-shadow:inset 0 0 5px #555!important;
+}
+.cancel-btn, .cancel-create-btn {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_gray2.image")!important;
+    background-color:#555!important
+}
+.cancel-btn:hover, .cancel-create-btn:hover {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_gray_active2.image")!important;
+    background-color:#fff!important
+}
+.ui-myres-sbsc-view-your-order-btn-container .button, .ui-myres-sbsc-customization-step-buttons-container .previous-btn, .new-customer button {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_y2.image")!important;
+    background-color:#c93!important;
+}
+.ui-myres-sbsc-view-your-order-btn-container .button:hover, .ui-myres-sbsc-customization-step-buttons-container .previous-btn:hover, .new-customer button:hover {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_y_active2.image")!important;
+    background-color:#ffc!important
+}
+.next-btn, .done-add-to-order-btn {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_green2.image")!important
+}
+.next-btn:hover, .done-add-to-order-btn:hover {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_green_active2.image")!important;
+    background-color:#dbdd85!important
+}
+.go-to-category-btn {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/74/menu_btn.image")!important;
+    background-color:#dbdd85!important;
+}
+.ui-res-menu-list-display-cat-as-btns .button.button-1.go-to-category-btn {
+    border:3px solid #c33!important;
+    font-size:.9em!important;
+    border-radius:.5em .5em .5em .5em!important;
+}
+.go-to-category-btn:hover {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/74/menu_btns_hover.image")!important;
+    background-color:#e5705b!important;
+}
+.button, input.button, button.button {
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/75/btn_redsml.image?notfound=notavailable');
+    border:2px #555 solid!important;
+    box-shadow:.01em .01em #555!important;
+    font-family:'BB_font', sans-serif!important;
+    font-size:1em!important;
+    text-transform:uppercase!important;
+    font-weight:200;
+    text-shadow:2px 2px 3px #000;
+    filter:dropshadow(color=#000000, offx=2, offy=2);
+}
+.button:hover, input.button:hover, button.button:hover {
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/75/redbtn_hover.image')
+}
+button {
+    padding:7px 20px!important
+}
+.pre-order-btn-continue-span {
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/36/btn_redsml.image');
+    background-color:transparent!important;
+    border:2px #555 solid!important;
+    box-shadow:none!important;
+    font-family:'BB_font', sans-serif!important;
+    font-size:.9em!important;
+    text-shadow:2px 2px 2px #555;
+    font-style:normal!important;
+}
+.pre-order-btn-cancel-span {
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/36/btn_green.image');
+    background-color:transparent!important;
+    border:2px #555 solid!important;
+    box-shadow:none!important;
+    font-family:'BB_font', sans-serif!important;
+    font-size:.9em!important;
+    text-shadow:2px 2px 2px #555;
+    font-style:normal!important;
+}
+.pre-order-btn-continue, .pre-order-btn-cancel, .ui-res-restricted-category-confirmation-btn-ok, .ui-res-update-to-zero-confirmation-btn-ok, .ui-res-out-of-range-confirmation-btn-ok, .ui-res-update-to-zero-confirmation-btn-cancel, .ui-res-update-to-zero-simple-confirmation-btn-ok, .ui-res-out-of-range-simple-confirmation-btn-ok, .ui-res-update-to-zero-simple-confirmation-btn-cancel, .change-location-btn-ok, .change-location-btn-cancel, .pre-order-information-dialog, .change-location-information-dialog, .ui-res-update-to-zero-confirmation-dialog, .ui-res-restricted-category-confirmation-dialog, .ui-res-out-of-range-confirmation-dialog, .ui-res-out-of-range-simple-confirmation-dialog, .ui-res-update-to-zero-simple-confirmation-dialog, .pre-order-information-message, .ui-res-update-to-zero-confirmation-message, .ui-res-restricted-category-confirmation-message, .ui-res-out-of-range-confirmation-message, .ui-res-out-of-range-simple-confirmation-message, .ui-res-update-to-zero-simple-confirmation-message, .change-location-information-message {
+    background-color:#fff!important
+}
+#wrap {
+    width:1250px!important;
+    height:100%!important;
+    background-color:#000!important
+}
+.general-gallery #galleria {
+    width:320px;
+    height:300px;
+    background:0;
+}
+.sitehome .general-gallery #galleria {
+    width:424px;
+    height:388px;
+    background:0
+}
+.galleria-container {
+    background:none!important
+}
+.galleria-thumb-nav-left, .galleria-thumb-nav-right, .galleria-info-link, .galleria-info-close, .galleria-image-nav-left, .galleria-image-nav-right {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1016/h/31/bb_galleria-map.image?notfound=notavailable")!important
+}
+.ui-res-header-logo-container {
+    padding:0!important
+}
+.ui-res-header-main-interior-navigation-container {
+    background-color:#000!important;
+    box-shadow:none!important;
+    height:35px!important
+}
+.ui-res-header-interior-navigation-container {
+    text-shadow:none!important
+}
+.ui-res-header-interior-navigation-container a:hover {
+    color:#c33
+}
+.ui-res-header-main-navigation-container-parent {
+    display:none!important
+}
+.ordernow {
+    min-height:820px;
+    width:344px;
+    position:absolute;
+    z-index:10;
+    height:auto;
+    top:15px;
+}
+.ordernow2 {
+    height:auto;
+    min-height:820px;
+    position:absolute;
+    width:344px;
+    z-index:10
+}
+.ui-res-order-time-label, .ui-res-order-date-label {
+    display:table-cell;
+    padding-bottom:10px;
+}
+.pre-order-dine-in span {
+    background-color:transparent!important;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/227/h/55/dinein_btn.image");
+    background-repeat:no-repeat;
+    border:0 none!important;
+    color:#000!important;
+    cursor:pointer;
+    font-family:'Magra', sans-serif;
+    font-size:.94em;
+    font-weight:bold;
+    height:59px;
+    padding:14px 0 5px 21px!important;
+    position:relative;
+    text-align:left!important;
+    text-transform:uppercase;
+    top:-116px;
+    width:227px!important;
+    z-index:12;
+    display:block!important;
+    letter-spacing:2px;
+}
+.order-take-out span {
+    background-color:transparent!important;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/227/h/55/takeout_btn.image");
+    background-repeat:no-repeat;
+    border:0 none!important;
+    color:#000!important;
+    cursor:pointer;
+    font-family:'Magra', sans-serif;
+    font-size:.94em;
+    font-weight:bold;
+    height:59px;
+    padding:14px 0 5px 21px!important;
+    position:relative;
+    text-align:left!important;
+    text-transform:uppercase;
+    top:-80px;
+    width:189px!important;
+    z-index:12;
+    display:block!important;
+    letter-spacing:2px;
+}
+.pre-order-information-dialog {
+    height:330px!important;
+}
+.pre-order-dine-in:hover span {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/227/h/55/dineinbtn_hover.image")!important;
+    color:#fff!important;
+    padding:14px 0 5px 14px!important
+}
+.order-take-out:hover span {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/227/h/55/takeout_btn_hover.image")!important;
+    color:#fff!important;
+    padding:14px 0 5px 14px!important
+}
+.pre-order-information-title, .ui-res-restricted-category-confirmation-title {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/34/h/64/red_popup_txt.image")!important
+}
+.img-area {
+    background:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/1078/h/486/burger4.image')no-repeat 100% transparent!important;
+    height:300px!important;
+    width:100%
+}
+.social.group {
+    float:right;
+    margin:-49px 0 0;
+    padding:0 20px 0 0
+}
+.social.group header {
+    display:none!important
+}
+.login-page-c .custom_title {
+    top:381px
+}
+.login-page-d {
+    position:static!important;
+    width:50%!important;
+    margin-left:243px;
+    min-height:651px;
+    color:#fff;
+}
+.login-page-d form {
+    position:relative!important;
+}
+.ui-res-login-btn-container {
+    width:50%
+}
+.new-customer {
+    border-top:5px solid #555!important;
+    margin-bottom:40px;
+    margin-top:40px;
+    padding-left:10px;
+    position:relative;
+    width:100%!important;
+    z-index:11
+}
+.new-customer .subtitle {
+    margin-left:0;
+    padding-left:0;
+    padding-top:10px;
+    top:0;
+    width:100%
+}
+.new-customer p {
+    margin:25px 0!important
+}
+.login-page-e {
+    width:100%;
+    position:static!important
+}
+.forgot-password-page-c .custom_title {
+    top:361px!important
+}
+.forgot-password-page-d {
+    min-height:625px!important;
+    position:static!important;
+    width:100%!important
+}
+.forgot-password-page-d form {
+    height:auto;
+    margin:0 243px;
+    overflow:hidden;
+    position:relative;
+    width:51%;
+    z-index:11
+}
+.forgot-password-page-d .border-1px {
+    display:none!important
+}
+.ui-res-forgot-password-input-table-container {
+    text-align:left!important;
+    padding-left:15px;
+}
+.ui-res-forgot-password-input-table {
+    padding-top:20px!important
+}
+.forgot-password-page-e {
+    width:100%!important;
+    position:static!important
+}
+.create-account-page-c .custom_title {
+    top:361px
+}
+.create-account-page-c .diff-font {
+    width:100%;
+}
+.create-account-page-d {
+    position:static!important;
+    width:100%!important;
+    min-height:625px!important;
+    height:100%!important
+}
+.create-account-page-d .ui-res-login-btn-container {
+    width:72%!important;
+}
+.create-account-page-d .ui-res-msg-item-container {
+    left:243px;
+    position:relative;
+    top:10px;
+    width:65%;
+}
+.create-account-page-d .ui-res-subsection-header {
+    background-image:none!important;
+}
+.create-account-page-d .diff-font {
+    width:300px;
+}
+.create-account-page-d form {
+    height:auto;
+    margin:0 243px;
+    overflow:hidden;
+    position:relative;
+    width:50%;
+    z-index:11
+}
+.create-account-page-d .border-1px {
+    display:none!important
+}
+.create-account-page-d .address-info-table {
+    border-top:5px solid #555;
+    padding:10px 0
+}
+.create-account-page-d .personal-info-table {
+    padding:10px 0
+}
+.create-account-page-e {
+    width:100%!important;
+    position:static!important
+}
+.ui-res-create-account-input-table {
+    padding-left:20px
+}
+.create-account-page-d .receive-email-wine-club-table {
+    padding-left:205px!important;
+}
+.my-account-page-c .custom_title {
+    top:361px!important
+}
+.my-account-page-d {
+    position:static!important;
+    width:100%!important;
+    min-height:625px!important;
+    height:100%!important
+}
+div.ui-res-my-account-view-btn-container {
+    width:55%!important;
+}
+.ui-res-my-account-main-section-container {
+    height:auto;
+    margin:13px 245px;
+    overflow:hidden;
+    position:relative;
+    width:65%;
+    z-index:11
+}
+.ui-res-my-account-main-section-container:first-child {
+    margin:0!important;
+}
+.ui-res-my-account-container .diff-font {
+    width:75%;
+}
+.my-account-page-e {
+    width:100%!important;
+    position:static!important
+}
+div.ui-res-my-account-navigation-container-parent {
+    margin:13px 250px!important;
+    position:relative;
+    z-index:10;
+}
+div.ui-res-my-account-navigation-container ul li {
+    background-color:transparent!important;
+}
+div.ui-res-my-account-navigation-container ul li:hover {
+    color:#c33!important;
+}
+div.ui-res-my-account-navigation-container ul li.active {
+    color:#c33!important;
+}
+.edit-account-page-d {
+    position:static!important;
+    width:100%!important;
+    min-height:625px!important;
+    height:100%!important
+}
+.edit-account-page-c .custom_title {
+    top:361px
+}
+.edit-account-page-d .ui-res-msg-item-container {
+    position:relative;
+    top:100px
+}
+.edit-account-page-d .ui-res-subsection-header {
+    background-image:none!important
+}
+.edit-account-page-d form {
+    height:auto;
+    margin:13px 243px;
+    overflow:hidden;
+    position:relative;
+    width:50%;
+    z-index:11
+}
+.ui-res-edit-account-input-table .diff-font {
+    width:75%;
+}
+.edit-account-page-e {
+    width:100%!important;
+    position:static!important
+}
+.reset-password-page-c .custom_title {
+    top:361px
+}
+.reset-password-page-d {
+    position:static!important;
+    width:50%!important;
+    margin-left:243px;
+    min-height:670px;
+    clear:both;
+}
+.reset-password-page-d form {
+    position:relative!important;
+    top:25px
+}
+.reset-password-page-e {
+    width:100%;
+    position:static!important
+}
+.join-our-team-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.join-our-team-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.join-our-team {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.join-our-team-page-e {
+    width:100%!important
+}
+.our-story-a {
+    width:100%!important;
+    position:static!important
+}
+.our-story-b {
+    width:100%!important;
+    position:static!important
+}
+.our-story-c {
+    clear:both;
+    position:static!important;
+    width:100%!important
+}
+.our-story-d {
+    width:80%!important;
+    margin-left:235px;
+    position:static!important;
+}
+.our-story {
+    height:auto;
+    margin:0 34px!important;
+    min-height:585px;
+    overflow:hidden;
+    padding:10px 0 20px!important;
+    width:80%!important;
+}
+.our-story p {
+    margin:10px 0!important
+}
+.our-story ul li {
+    margin-left:40px!important
+}
+.our-story ul {
+    list-style-type:disc!important;
+}
+.our-story ul li {
+    line-height:1.2em;
+}
+.our-story-e {
+    width:100%!important;
+    position:static!important
+}
+.locations-a {
+    width:100%!important;
+    position:static!important
+}
+.locations-b {
+    width:100%!important;
+    position:static!important
+}
+.locations-c {
+    clear:both;
+    position:static!important;
+    width:100%!important
+}
+.locations-d {
+    width:80%!important;
+    margin-left:235px;
+    position:static!important;
+    min-height:585px;
+}
+.locations p {
+    margin:10px 0!important
+}
+.locations ul li {
+    margin-left:40px!important
+}
+.locations-e {
+    width:100%!important;
+    position:static!important
+}
+.location-links-container a:first-child {
+    display:none;
+}
+.news-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.news-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.news2 {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.news2 p {
+    margin:10px 0!important
+}
+.news2 ul li {
+    margin-left:40px!important
+}
+.news-page-e {
+    width:100%!important
+}
+.company-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.company-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.company {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.company p {
+    margin:10px 0!important
+}
+.company ul li {
+    margin-left:40px!important
+}
+.company-page-e {
+    width:100%!important
+}
+.awards-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.awards-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.awards {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.awards p {
+    margin:10px 0!important
+}
+.awards ul li {
+    margin-left:40px!important
+}
+.awards-page-e {
+    width:100%!important
+}
+.gift-cards-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.gift-cards-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.gift-cards {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.gift-cards p {
+    margin:10px 0!important
+}
+.gift-cards ul li {
+    margin-left:40px!important
+}
+.gift-cards-page-e {
+    width:100%!important
+}
+.contact-us-page-d {
+    width:80%!important;
+    margin-left:235px;
+    position:static!important;
+}
+.contact-us-page-d .ui-res-contactus-form-mandatory-note {
+    display:none;
+}
+.ui-res-contactus-form {
+    margin:34px 0 0;
+    min-height:585px;
+    width:65%;
+}
+.ui-res-contactus-form th, .ui-res-contactus-form td {
+    text-align:left;
+}
+.contact-us p {
+    margin:10px 0!important
+}
+.contact-us ul li {
+    margin-left:40px!important
+}
+.contact-us-page-e {
+    width:100%!important;
+    position:static!important
+}
+.privacy-policy-page-d {
+    width:80%!important;
+    margin-left:235px;
+    position:static!important;
+}
+.privacy-policy {
+    height:auto;
+    margin:0 34px!important;
+    min-height:585px;
+    overflow:hidden;
+    padding:10px 0 20px;
+    width:80%;
+}
+.privacy-policy p {
+    margin:10px 0!important
+}
+.privacy-policy ul li {
+    margin-left:40px!important;
+    padding-bottom:15px;
+}
+.privacy-policy-page-e {
+    width:100%!important;
+    position:static!important
+}
+.terms-and-conditions-page-d {
+    width:80%!important;
+    margin-left:235px;
+    position:static!important;
+}
+.terms-and-conditions {
+    height:auto;
+    margin:0 34px!important;
+    min-height:585px;
+    overflow:hidden;
+    padding:10px 0 20px;
+    width:80%;
+}
+.terms-and-conditions p {
+    margin:10px 0!important
+}
+.terms-and-conditions ul li {
+    margin-left:40px!important
+}
+.terms-and-conditions-page-e {
+    width:100%!important;
+    position:static!important
+}
+.donation-request-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.donation-request-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.donation-request-page-d form {
+    height:auto;
+    margin:0 34px;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:50%
+}
+.donation-request-page-d .border-1px {
+    display:none!important
+}
+.donation-request-page-e {
+    width:100%!important
+}
+#menubtn {
+    text-transform:uppercase;
+    position:relative;
+    top:-92px;
+    left:135px;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_green.image?notfound=notavailable")!important;
+    background-repeat:repeat-x;
+    -moz-border-radius:5px!important;
+    -webkit-border-radius:5px!important;
+    border-radius:5px!important;
+    border:solid #555 3px;
+    width:154px;
+    height:38px;
+    z-index:1;
+    font-family:'BB_font', sans-serif;
+    font-size:.9em;
+    color:#FFF;
+}
+.main {
+    background:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1078/h/486/burger4.image") no-repeat scroll 100% center transparent!important;
+    height:410px!important;
+    position:relative;
+}
+.sitehome .general-gallery {
+    left:788px;
+    position:absolute;
+    top:40px;
+    z-index:13
+}
+.general-gallery {
+    left:863px;
+    position:absolute;
+    top:27px;
+    z-index:13;
+}
+.page-links {
+    height:auto;
+    margin:0 28% 3%!important;
+    min-height:489px;
+    overflow:hidden;
+    width:80%
+}
+.page-links h1 {
+    text-transform:uppercase;
+    border-bottom:5px solid #3f3f3f;
+    padding-bottom:15px;
+    margin:5px 0;
+    font-size:1.7em;
+    width:750px;
+    text-align:center
+}
+.moretxt {
+    display:none
+}
+.bbhome {
+    width:750px
+}
+#readmore {
+    background-color:#000!important;
+    border:medium none;
+    color:#fff;
+    font-size:.85em;
+    font-weight:bold;
+    padding:0!important;
+    position:relative;
+    text-transform:uppercase;
+    top:-19px;
+    width:115px;
+    left:317.5px
+}
+#readmore:hover {
+    color:#c33;
+}
+#home_btns {
+    height:170px;
+    margin:0 0 60px 68px;
+    width:100%
+}
+.rhomebtn {
+    background-color:#d92a31;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/73/menu_btn.image");
+    border:3px solid #c33!important;
+    border-radius:.5em .5em .5em .5em!important;
+    font-family:'BB_font', sans-serif!important;
+    text-shadow:2px 2px 3px #000;
+    display:inline-block;
+    font-size:1.4em!important;
+    margin:10px 9px;
+    overflow:hidden;
+    padding:23px 26px!important;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    width:68.3%!important;
+    color:#fff!important;
+}
+.rhomebtn:hover {
+    color:#fff!important;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/75/redbtn_hover.image");
+}
+.rhomebtn:active {
+    color:#fff!important;
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/75/home_btn_active2.image');
+    -webkit-box-shadow:inset 0 3px 15px #7f0002;
+    box-shadow:inset 0 3px 15px #7f0002;
+}
+.yhomebtn {
+    background-color:#f9cf70;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/75/yhomebtn2.image");
+    border:3px solid #c28e20!important;
+    border-radius:10px;
+    color:#fff!important;
+    display:inline-block;
+    font-family:'BB_font', sans-serif!important;
+    font-size:1.4em!important;
+    margin:10px 9px!important;
+    overflow:hidden;
+    padding:23px!important;
+    text-align:center!important;
+    text-decoration:none;
+    text-shadow:2px 2px 2px #555;
+    text-transform:uppercase;
+    width:17%!important;
+}
+.yhomebtn:hover {
+    color:#fff!important;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/75/yhomebtn_hover2.image");
+}
+.yhomebtn:active {
+    color:#fff!important;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/75/yhomebtn_active2.image");
+    box-shadow:inset 0 3px 15px #845702;
+    -webkit-box-shadow:inset 0 3px 15px #845702;
+}
+.home-page-c {
+    width:80%!important;
+    margin-top:-45px;
+}
+.home-page-d {
+    width:100%!important;
+    position:static!important
+}
+.press-a {
+    width:100%!important;
+    position:static!important
+}
+.press-b {
+    width:100%!important;
+    position:static!important
+}
+.press-c {
+    position:static!important;
+    width:100%!important;
+    clear:both;
+}
+.press-d {
+    width:80%!important;
+    margin-left:243px;
+    position:static!important
+}
+.press {
+    height:auto;
+    margin:0 34px!important;
+    min-height:585px;
+    overflow:hidden;
+    width:80%
+}
+.press p {
+    margin:10px 0!important
+}
+.press ul li {
+    margin-left:40px!important
+}
+.press-e {
+    width:100%!important;
+    position:static!important
+}
+.media-a {
+    width:100%!important;
+    position:static!important
+}
+.media-b {
+    width:100%!important;
+    position:static!important
+}
+.media-c {
+    position:static!important;
+    width:100%!important;
+    clear:both;
+}
+.media-d {
+    width:80%!important;
+    margin-left:243px;
+    position:static!important
+}
+.cc-media {
+    height:auto;
+    min-height:585px;
+    overflow:hidden;
+    width:80%
+}
+.cc-media p {
+    margin:10px 0!important
+}
+.cc-media ul li {
+    margin-left:40px!important
+}
+.media-e {
+    width:100%!important;
+    position:static!important
+}
+.eclub-a, .eclub-confirmation-a {
+    width:100%!important;
+    position:static!important
+}
+.eclub-b, .eclub-confirmation-b {
+    width:100%!important;
+    position:static!important
+}
+.eclub-c, .eclub-confirmation-c {
+    clear:both;
+    width:100%!important;
+    position:static!important
+}
+.eclub-d, .eclub-confirmation-d {
+    width:80%!important;
+    margin-left:243px;
+    position:static!important
+}
+.cc-eclub, .eclub-confirmation {
+    height:auto;
+    margin:30px 20px!important;
+    min-height:585px;
+    overflow:hidden;
+    width:80%;
+    position:relative!important;
+    z-index:12;
+}
+.cc-eclub p, .eclub-confirmation p {
+    margin:10px 0!important
+}
+.cc-eclub ul li, .eclub-confirmation ul li {
+    margin-left:40px!important
+}
+.eclub-e, .eclub-confirmation-e {
+    width:100%!important;
+    position:static!important
+}
+#fishbowl_form {
+    width:42%;
+    text-align:center;
+}
+#fishbowl_form .eclub-btn {
+    margin-top:20px;
+}
+#fishbowl_form td:first-child {
+    text-align:right;
+    font-weight:bold;
+    padding:10px;
+}
+#fishbowl_form td:last-child {
+    text-align:left;
+}
+div.nav-order-step-bar ul li {
+    float:none!important;
+    width:100%!important;
+}
+div#nav-steps-container {
+    left:194px;
+    margin:0!important;
+    overflow:hidden;
+    position:relative!important;
+    top:10px!important;
+    width:84.5%!important;
+}
+div#nav-steps-container ul {
+    margin:0
+}
+div.nav-order-step-bar ul li {
+    margin-left:0!important;
+}
+.nav-order-step-bar {
+    display:inline-block;
+    box-shadow:0 0 15px 1px rgba(0, 0, 0, 0.35);
+    overflow:hidden;
+    background:#ce2d29;
+    background:-moz-linear-gradient(top, #ce2d29 0, #870a05 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ce2d29), color-stop(100%, #870a05));
+    background:-webkit-linear-gradient(top, #ce2d29 0, #870a05 100%);
+    background:-o-linear-gradient(top, #ce2d29 0, #870a05 100%);
+    background:-ms-linear-gradient(top, #ce2d29 0, #870a05 100%);
+    background:linear-gradient(to bottom, #ce2d29 0, #870a05 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce2d29', endColorstr='#870a05', GradientType=0);
+    font-weight:200;
+    font-size:1em;
+    font-family:'BB_font', sans-serif!important;
+    text-shadow:2px 2px 3px #000;
+    filter:dropshadow(color=#000000, offx=2, offy=2);
+    height:45px;
+    width:100%;
+}
+.nav-order-step-bar a {
+    text-decoration:none;
+    outline:0;
+    display:block;
+    float:left;
+    line-height:45px;
+    color:white;
+    padding:0 10px 0 60px;
+    background:#ce2d29;
+    background:-moz-linear-gradient(top, #ce2d29 0, #870a05 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ce2d29), color-stop(100%, #870a05));
+    background:-webkit-linear-gradient(top, #ce2d29 0, #870a05 100%);
+    background:-o-linear-gradient(top, #ce2d29 0, #870a05 100%);
+    background:-ms-linear-gradient(top, #ce2d29 0, #870a05 100%);
+    background:linear-gradient(to bottom, #ce2d29 0, #870a05 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce2d29', endColorstr='#870a05', GradientType=0);
+    position:relative;
+}
+.nav-order-step-bar a:hover {
+    color:white!important;
+}
+.nav-order-step-bar a:first-child {
+    padding-left:46px;
+}
+.nav-order-step-bar a:first-child:before {
+    left:14px;
+}
+.nav-order-step-bar a:last-child {
+    padding-right:30px;
+}
+.nav-order-step-bar .current-order-step a, .nav-order-step-bar a:hover {
+    background:#d4a12b;
+    background:-moz-linear-gradient(top, #d4a12b 0, #a27614 100%);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #d4a12b), color-stop(100%, #a27614));
+    background:-webkit-linear-gradient(top, #d4a12b 0, #a27614 100%);
+    background:-o-linear-gradient(top, #d4a12b 0, #a27614 100%);
+    background:-ms-linear-gradient(top, #d4a12b 0, #a27614 100%);
+    background:linear-gradient(to bottom, #d4a12b 0, #a27614 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4a12b', endColorstr='#a27614', GradientType=0);
+}
+.nav-order-step-bar .current-order-step a:after, .nav-order-step-bar a:hover:after {
+    background:#d4a12b;
+    background:-moz-linear-gradient(116deg, #d4a12b 0, #a27614 100%);
+    background:-webkit-gradient(linear, left top, right bottom, color-stop(0%, #d4a12b), color-stop(100%, #a27614));
+    background:-webkit-linear-gradient(116deg, #d4a12b 0, #a27614 100%);
+    background:-o-linear-gradient(116deg, #d4a12b 0, #a27614 100%);
+    background:-ms-linear-gradient(116deg, #d4a12b 0, #a27614 100%);
+    background:linear-gradient(116deg, #d4a12b 0, #a27614 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4a12b', endColorstr='#a27614', GradientType=1);
+}
+.nav-order-step-bar a:after {
+    content:'';
+    position:absolute;
+    top:0;
+    right:-22.5px;
+    width:45px;
+    height:45px;
+    transform:scale(0.707) rotate(45deg);
+    -ms-transform:scale(0.707) rotate(45deg);
+    -webkit-transform:scale(0.707) rotate(45deg);
+    -moz-transform:scale(0.707) rotate(45deg);
+    z-index:1;
+    background:#ce2d29;
+    background:-moz-linear-gradient(135deg, #ce2d29 0, #870a05 100%);
+    background:-webkit-gradient(linear, left top, right bottom, color-stop(0%, #ce2d29), color-stop(100%, #870a05));
+    background:-webkit-linear-gradient(135deg, #ce2d29 0, #870a05 100%);
+    background:-o-linear-gradient(135deg, #ce2d29 0, #870a05 100%);
+    background:-ms-linear-gradient(135deg, #ce2d29 0, #870a05 100%);
+    background:linear-gradient(135deg, #ce2d29 0, #870a05 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce2d29', endColorstr='#870a05', GradientType=1);
+    box-shadow:4px -4px 0 3px rgba(0, 0, 0, 01), 5px -5px 0 4px rgba(255, 255, 255, 0.1)
+}
+.map-marker>img {
+    display:none!important;
+}
+.ui-res-lbl-img-icon-label {
+    margin-left:10px;
+    margin-top:8px;
+    position:absolute;
+}
+.ui-res-locations-search-criteria-container {
+    margin:0 34px;
+    padding:75px 0 20px;
+    width:79%!important
+}
+.ui-res-locations-search-result-container {
+    height:auto;
+    margin:0 34px;
+    overflow:hidden;
+    width:80%
+}
+.ui-res-search-location-store-det-li {
+    border:0!important
+}
+.ui-res-locations-search-result {
+    margin:10px 0 25px 0!important;
+    width:61%!important
+}
+.ui-res-locations-header {
+    background-color:#c33
+}
+.ui-res-search-location-store-det {
+    font-family:sans-serif;
+    padding-left:25px
+}
+.ui-res-address-det-btns {
+    float:right;
+    margin-top:-20%;
+    width:55%
+}
+.ui-res-address-det-container {
+    width:70%
+}
+.ui-res-locations-search-result-map-container .ui-res-locations-map-canvas {
+    border:4px solid #404040;
+    height:339px!important;
+    margin-top:-22px;
+    width:273px;
+    margin-bottom:9px
+}
+.ui-res-locations-search-result-map-container .ui-res-lbl-img-icon {
+    background-color:transparent!important;
+    background-image:none!important;
+    box-shadow:none!important;
+    margin:0 20px 0 0!important;
+    padding:0!important
+}
+.search-locations-criteria-and-result-page-c {
+    background-color:#000!important;
+    height:100%!important;
+    min-height:220px!important
+}
+.ui-res-locations-view-all-link {
+    color:#fff!important;
+    text-decoration:none!important
+}
+.ui-res-locations-view-all-link:hover {
+    color:#c33!important;
+    text-decoration:none!important
+}
+.search-locations-criteria-and-result-page-d {
+    width:80%!important;
+    margin-left:235px;
+    top:419px!important
+}
+.search-locations-criteria-and-result-page-d .diff-font {
+    font-family:'BB_font', sans-serif!important
+}
+.search-locations-criteria-and-result-page-e {
+    width:100%!important
+}
+.search-locations-results-page-d {
+    width:80%!important;
+    margin-left:235px;
+    min-height:585px;
+    position:static!important;
+}
+.store-list {
+    font-family:sans-serif;
+    font-size:.9em;
+    margin-left:25px;
+    padding-left:15px;
+    padding-top:20px;
+    line-height:1.7em
+}
+.coming-soon-title {
+    border-top:5px solid #404040;
+    font-size:1.5em;
+    font-style:normal;
+    margin-left:9px;
+    margin-top:7px;
+    padding-left:10px;
+    padding-top:15px;
+    text-transform:uppercase;
+    top:45px;
+    width:88.5%
+}
+.search-locations-results-page-e {
+    width:100%!important;
+    position:static!important
+}
+.order-date-time-page-d {
+    float:left;
+    width:47%!important;
+    margin-left:243px;
+    min-height:625px!important;
+    height:100%!important;
+    position:static!important;
+}
+.order-date-time-page-d .ui-res-order-date-time-container {
+    padding-left:10px!important
+}
+.order-date-time-page-e {
+    border:3px solid #555;
+    float:left!important;
+    font-family:sans-serif!important;
+    line-height:1.4em;
+    margin:-19px 10px 10px 1px;
+    padding:15px;
+    position:static!important;
+    width:19%!important
+}
+.order-date-time-page-f {
+    width:100%!important;
+    position:static!important;
+    clear:both
+}
+.ui-res-order-date-time-separator {
+    height:5px!important;
+    background-color:#404040!important
+}
+.ui-res-order-date-time-input {
+    height:auto;
+    overflow:hidden;
+    padding:15px 0 0;
+    width:98%
+}
+.ui-res-menu-grid-container {
+    height:auto;
+    margin:0 34px;
+    min-height:489px;
+    overflow:hidden;
+    padding:165px 0 20px;
+    width:70%
+}
+.ui-res-dropdown-menu-item {
+    font-weight:bold;
+    text-align:center;
+}
+.ui-res-dropdown-menu-item-li {
+    background-color:#fff;
+    box-shadow:none!important;
+    color:#cf312e;
+    border-top:#3f3f3f 1px solid!important
+}
+.ui-res-dropdown-menu-item:hover {
+    background-color:#d9a227;
+    color:#fff
+}
+.ui-res-dropdown-menu-container {
+    left:13px;
+    position:absolute;
+    top:0;
+    box-shadow:none!important;
+    width:520px!important
+}
+.ui-res-dropdown-menu-container, .ui-res-dropdown-menu-selected-category-container, .ui-res-dropdown-menu-list {
+    max-width:100%!important
+}
+.ui-res-dropdown-menu-list li:first-child {
+    display:none;
+}
+.menu-list-item-go-to-category, .go-to-category-btn {
+    background-color:#d92a31;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/73/menu_btn.image?notfound=notavailable&nocache=1375967306672");
+    border-color:transparent!important;
+    border-radius:10px 10px 10px 10px;
+    box-shadow:none!important;
+    font-family:'BB_font', sans-serif!important;
+    font-size:1.4em!important;
+    overflow:hidden;
+    padding:0!important;
+    position:relative;
+    text-shadow:5px 2px 2px #555;
+    filter:dropshadow(color=#555555, offx=5, offy=2);
+    text-transform:uppercase;
+    width:254px!important
+}
+.ui-res-dropdown-menu-selected-category-container {
+    font-size:1.6em!important;
+    background-color:#FFF!important;
+    color:#cf312e;
+    text-shadow:-2px 2px #ddd!important;
+    padding-bottom:5px!important;
+    padding-top:5px!important;
+}
+.ui-dialog .ui-dialog-content {
+    padding-left:0!important;
+    padding-right:0!important
+}
+.menu-a {
+    width:100%!important;
+    position:static!important
+}
+.menu-b {
+    width:100%!important;
+    position:static!important
+}
+.menu-c {
+    position:static!important;
+    width:100%!important;
+    clear:both
+}
+.menu-c .custom_title {
+    width:77%;
+}
+.menu-d {
+    width:80%!important;
+    margin-left:235px;
+    position:static!important;
+    margin-top:23px;
+}
+.menu-e {
+    width:100%!important;
+    position:static!important
+}
+.print_icon {
+    position:absolute;
+    margin-left:950px;
+    margin-top:65px;
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/26/h/29/print_icon.image');
+    width:26px;
+    height:29px;
+}
+.print_icon:hover {
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/26/h/29/print_icon_hover.image');
+}
+.ui-res-order-basket-items-container col:first-child {
+    width:60%!important;
+}
+.ui-res-order-basket-items-container col:last-child {
+    width:30%!important;
+}
+.ui-res-menu-list-container {
+    position:relative!important;
+    z-index:11
+}
+.bolt-menu-title .custom_title {
+    width:56%!important;
+    padding-left:184px!important
+}
+.menu-list-item.ui-myres-menu-list-add-to-cart-view-product-required-shown {
+    background-color:#2c2c2c!important
+}
+.menu-page-d {
+    float:left;
+    width:46%!important;
+    margin-left:243px;
+    min-height:625px!important;
+    height:100%!important;
+    position:static!important;
+    margin-bottom:40px;
+    margin-top:25px!important;
+}
+.menu-page-d .ui-res-main-section-header {
+    top:75px!important;
+    position:static!important
+}
+.ing_name {
+    font-weight:normal;
+    font-style:italic;
+    color:#fff;
+}
+.review-and-checkout .customization {
+    display:inline-block;
+    float:left;
+    padding-top:0!important;
+}
+.customization div {
+    display:block;
+    font-size:12px;
+    clear:both;
+}
+.customization a.item-config-edit-link {
+    font-size:10px!important;
+    margin-left:0!important;
+}
+.customization span.basket-item-config-descrip {
+    font-weight:normal!important
+}
+.ui-res-order-basket-items-container.simple table .item {
+    line-height:1.2em;
+}
+.ui-myres-menu-home-btn-container {
+    left:70.1%;
+    position:absolute;
+    top:461px
+}
+.ui-res-menu-grid-div .ui-res-lbl-img-icon-img-img {
+    display:none!important
+}
+.ui-res-menu-dropdown-container.ui-res-menu-parent-category-selected {
+    display:none
+}
+.ui-res-menu-dropdown-container {
+    z-index:16
+}
+.menu-separator {
+    display:inline;
+    margin-top:68px;
+    position:absolute;
+    border-bottom:5px solid #555;
+    width:70.7%!important
+}
+.menu-page-e .ui-res-order-date-time-container form select {
+    margin:5px!important;
+}
+.menu-page-e {
+    border:3px solid #555;
+    float:left!important;
+    font-family:sans-serif!important;
+    line-height:1.4em;
+    margin:20px 10px 40px 15px;
+    padding:15px;
+    position:static!important;
+    width:19%!important
+}
+.ui-res-dropdown-menu-selected-category-title-container {
+    padding-right:2px!important;
+}
+.menu td.text-align-right {
+    border-left:2px solid #000;
+    padding-left:15px;
+}
+.ui-res-dropdown-menu-selected-category-title-container .text-align-right {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/21/h/23/menu_dropdown.image");
+    background-position:center center;
+    background-repeat:no-repeat;
+    color:rgba(0, 0, 0, 0);
+    text-align:right;
+    text-shadow:none;
+    width:4%;
+}
+.order_btn {
+    margin-top:-80px;
+    text-align:right;
+    width:98%;
+}
+.html-menu .rhomebtn, .print_btn {
+    border-radius:5px 5px 5px 5px;
+    font-size:1em!important;
+    margin:10px 5px;
+    padding:9px 16px!important;
+    width:167px!important;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/50/btn_redsml2.image");
+    letter-spacing:.5px;
+    white-space:nowrap;
+}
+.html-menu .rhomebtn:hover {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_redsml_hover2.image");
+}
+.html-menu .rhomebtn:active {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/btn_redsm_active2.image");
+    -webkit-box-shadow:inset 0 3px 5px #7f0002;
+    box-shadow:inset 0 2px 3px #7f0002;
+}
+.print_btn {
+    background-color:#fff;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/1/h/34/white_btn.image")!important;
+    border:3px solid #bbb!important;
+    display:inline-block;
+    overflow:hidden;
+    text-align:center;
+    text-shadow:1px 2px #ccc;
+    font-family:'BB_font', sans-serif!important;
+    text-decoration:none!important;
+}
+a:link.print_btn {
+    color:#c33!important;
+}
+.print_btn:hover {
+    background-color:#999;
+}
+.remove {
+    display:inline-block;
+    float:right;
+    margin-right:-152px;
+}
+.remove a {
+    background-color:rgba(0, 0, 0, 0)!important;
+    background-image:none!important;
+    border:0 none!important;
+    box-shadow:none!important;
+    font-family:helvetica!important;
+    font-size:10px!important;
+    text-decoration:underline!important;
+    width:100%;
+    padding:0;
+}
+.location-links-container a {
+    text-decoration:underline
+}
+.menu-list-item-separator, .ui-myres-category-descrip-separator {
+    height:5px!important;
+    background-color:#404040!important;
+    margin:0!important
+}
+.menu-list-item.ui-myres-menu-list-add-to-cart-view-product-required-hidden:hover {
+    background-color:#2c2c2c!important
+}
+.menu-list-item-specialinstructions {
+    clear:both;
+    height:75px;
+    line-height:1.8em;
+    width:50%
+}
+.menu-list-item-title, .menu-list-item-price {
+    color:#fff!important
+}
+.menu-list-item-title {
+    text-transform:uppercase;
+}
+.ui-res-order-date-time-container {
+    clear:both!important;
+    font-family:sans-serif!important;
+    padding-left:0!important;
+    width:95%!important;
+}
+.title {
+    font-weight:bold!important
+}
+.ui-res-order-btn-container {
+    text-align:center!important
+}
+.ui-res-order-btn-container .float-right {
+    float:none!important
+}
+.ui-res-order-btn-container button {
+    width:100%!important
+}
+.your-order .diff-font2 {
+    border-top:0;
+    padding-top:0;
+    padding-bottom:10px;
+    text-align:center;
+    width:100%
+}
+.ui-res-order-date-time-container .button {
+    display:inline-block;
+    font-size:12px!important;
+    margin-right:10px;
+    margin-top:10px;
+}
+.ui-res-order-basket-items-container.simple tr:first-child {
+    border-width:2px 0;
+    border-color:#555;
+    border-style:solid
+}
+.ui-res-order-basket-items-container.simple td {
+    padding-top:10px
+}
+.ui-res-order-basket-items-container.simple tr:first-child {
+    height:30px
+}
+.ui-res-order-basket-items-totals-container.simple tbody {
+    border-width:2px 0;
+    border-color:#555;
+    border-style:solid
+}
+.ui-res-order-basket-items-totals-container.simple table {
+    float:none!important;
+    width:100%!important
+}
+.ui-res-order-basket-items-container.simple table th {
+    padding:8px 0;
+    font-weight:bold!important
+}
+.voucher-discount {
+    display:none!important;
+}
+.voucher-discount th {
+    width:55%!important;
+}
+.ui-res-order-basket-items-totals-container.simple table th {
+    padding:0;
+    font-weight:bold!important
+}
+.tax-total td, .sub-total td, .voucher-discount {
+    font-weight:bold!important
+}
+.ui-res-order-basket-items-container.simple table {
+    min-height:250px;
+    background-image:url('//images.webhotel.microsdc.us/boltburger.desktop/get/w/98/h/211/simple_basket_bolt.image?notfound=notavailable');
+    background-repeat:no-repeat;
+    background-position:center;
+    height:0;
+    font-family:sans-serif
+}
+.ui-res-order-basket-items-container.simple table .qty {
+    width:15%;
+    text-align:left!important;
+}
+.ui-res-order-basket-items-totals-container.simple, .ui-res-order-basket-items-container.simple, .ui-res-order-basket-items-totals-container.simple, .ui-res-order-status-container {
+    background-color:transparent!important;
+    color:#fff!important;
+    position:relative;
+    z-index:11
+}
+.ui-res-order-status-container {
+    padding:0!important
+}
+.location-links-container .container {
+    padding:5px 0;
+    border-bottom:2px solid #555
+}
+.ui-res-menu-grid-item-overlay-container {
+    background-color:hsla(0, 0%, 33%, 1)!important;
+    width:260px!important
+}
+.ui-res-menu-grid-item-overlay-close-btn {
+    color:#fff!important
+}
+.menu-page-f {
+    width:100%!important;
+    clear:both!important;
+    position:static!important
+}
+.ui-dialog .ui-dialog-content {
+    padding-top:0!Important
+}
+.ui-myres-sbsc-add-to-cart-info-msg-separator, .ui-myres-sbsc-add-to-cart-product-title-separator, .ui-myres-sbsc-add-to-cart-product-modifiers-separator, .ui-myres-sbsc-add-to-cart-item-total-separator {
+    background-color:#555!important
+}
+.ui-myres-sbsc-add-to-cart-title {
+    color:#fff!important;
+    font-family:'BB_font', sans-serif!important;
+    font-size:2.3em!important;
+    text-shadow:2px 2px 2px #000!important
+}
+.ui-res-modal {
+    border:3px solid #555!important;
+    padding:0!important;
+    box-shadow:none!important
+}
+.ui-myres-sbsc-add-to-cart-body {
+    width:97%!important;
+    margin-left:10px!important
+}
+.ui-res-menuGrid-add-order-validate-error-container, .ui-res-menuGrid-add-order-validate-error-btns {
+    padding:10px
+}
+.tool-tip-product-descrip-content {
+    text-align:left!important;
+}
+.tip-yellow {
+    max-width:300px!important;
+}
+.step-by-step-customization-page-d {
+    float:left;
+    width:46%!important;
+    margin-left:243px;
+    min-height:625px!important;
+    height:100%!important;
+    position:static!important;
+    margin-top:25px!important;
+    margin-bottom:40px
+}
+.step-by-step-customization-page-e {
+    float:left!important;
+    font-family:sans-serif!important;
+    line-height:1.4em;
+    margin:102px 10px 40px 15px!important;
+    padding:15px;
+    position:static!important;
+    width:19%!important
+}
+.ui-myres-sbsc-view-your-order-btn-container .view-your-order {
+    width:102%!important;
+}
+.step-by-step-customization-page-f {
+    width:100%!important;
+    clear:both!important;
+    position:static!important
+}
+.ui-myres-sbsc-customization-step-title-container {
+    text-transform:uppercase;
+}
+.e-wrap {
+    background-color:#fcf8ef!important;
+    border:3px solid #555;
+    color:#000!important;
+    margin-bottom:15px;
+    padding:10px
+}
+.ui-myres-sbsc-selected-modifiers-list {
+    font-size:.85em
+}
+.ui-myres-sbsc-view-your-order-btn-container {
+    border:3px solid #555!important;
+    display:none;
+}
+.ui-res-input-select {
+    border:0!important;
+    box-shadow:none!important;
+}
+#order-pick-up-time-comp select {
+    display:block;
+}
+.ui-myres-sbsc-add-to-cart-header {
+    padding:10px!important;
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/34/h/64/red_popup_txt.image?notfound=notavailable")!important;
+    border-bottom:3px solid #555!important
+}
+.config-display-selected-item {
+    padding-left:25px;
+    text-indent:-20px
+}
+.config-display-selected-items {
+    font-family:sans-serif!important;
+    font-weight:normal!important
+}
+.ui-myres-sbsc-customization-step-container {
+    border-bottom:5px solid #404040!important
+}
+.ui-myres-sbsc-item-total-label, .ui-myres-sbsc-item-total-value {
+    color:#c52b33!important
+}
+.ui-myres-sbsc-customization-steps-container {
+    position:relative;
+    z-index:15;
+}
+.ui-myres-sbsc-product-descrip-container {
+    margin-top:60px;
+    position:relative;
+    z-index:11;
+    border-bottom:.3em solid #404040!important;
+    border-top:0 none!important;
+}
+.ui-myres-sbsc-consumer-advisory-container {
+    font-size:80%;
+    padding:20px 1em 1em
+}
+.ui-myres-sbsc-customization-step-container.selected {
+    background-color:#2c2c2c!important
+}
+.ui-res-checkout-input-table-header {
+    text-transform:uppercase
+}
+.review-and-checkout-page-d {
+    border:3px solid #555;
+    float:left;
+    margin:20px 20px 20px 254px;
+    padding:10px;
+    position:static!important;
+    width:43%!important
+}
+.review-and-checkout-page-d .ui-res-main-section-header {
+    width:168%!important
+}
+.review-and-checkout-page-e {
+    border:3px solid #555;
+    float:left!important;
+    font-family:sans-serif!important;
+    line-height:1.4em;
+    margin:20px 10px 10px 1px;
+    padding:15px;
+    position:static!important;
+    width:19%!important
+}
+.review-and-checkout-page-f {
+    clear:both;
+    position:static!important;
+    width:43%!important;
+    margin-left:254px;
+    margin-bottom:40px
+}
+.review-and-checkout-page-f .specialInstruction-input .ui-res-input-text {
+    margin-left:59px!important
+}
+.review-and-checkout-page-g {
+    position:static!important
+}
+[name=orderNickName] {
+    margin-left:59px!important
+}
+[value=N] {
+    margin-left:10px!important
+}
+.securityCode-input, .expirationDateMonth-input, .saveCard-input {
+    text-align:left;
+    padding-left:64px!important;
+}
+.ui-res-checkout-input-table div.note {
+    padding-left:59px!important
+}
+.review-and-checkout-page-h {
+    width:100%!important;
+    position:static!important
+}
+table.ui-res-checkout-input-table th {
+    vertical-align:top!important
+}
+.order-confirmation-page-d {
+    border:3px solid #555;
+    float:left;
+    margin:29px 20px 20px 254px;
+    padding:10px;
+    position:static!important;
+    width:43%!important
+}
+.order-confirmation-page-d .your-order .diff-font2 {
+    text-align:left
+}
+.order-confirmation-page-d .ui-res-order-basket-items-container.simple table {
+    min-height:400px!important;
+    background-image:none!important
+}
+.order-confirmation-page-e {
+    border:3px solid #555;
+    float:left!important;
+    font-family:sans-serif!important;
+    line-height:1.4em;
+    margin:29px 10px 10px 1px;
+    padding:15px;
+    position:static!important;
+    width:19%!important
+}
+.order-confirmation-page-f {
+    clear:both;
+    margin:0 0 40px 270px;
+    position:static!important;
+    width:43%!important
+}
+.order-confirmation-page-g {
+    width:100%;
+    position:static!important
+}
+.ui-res-order-confirm-message-body {
+    padding-bottom:25px
+}
+.order-summary-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.order-summary-page-d {
+    width:42%!important;
+    margin-left:235px;
+    height:auto!important
+}
+.order-summary-page-d .ui-res-main-section-header {
+    top:75px!important
+}
+.order-summary-page-e {
+    border:3px solid #555;
+    left:800px!important;
+    padding:15px;
+    top:543px!important;
+    width:20%!important
+}
+.order-summary-page-f {
+    width:100%!important
+}
+.locationDetails {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.locationDetails-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.locationDetails-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.locationDetails-page-e {
+    width:100%!important
+}
+.checkout {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.checkout-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.checkout-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.checkout-page-e {
+    width:100%!important
+}
+.catering {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.catering-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.catering-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.catering-page-e {
+    width:100%!important
+}
+.reviewAndCheckout {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.reviewAndCheckout-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.reviewAndCheckout-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.reviewAndCheckout-page-e {
+    width:100%!important
+}
+.searchLocationsResults {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.searchLocationsResults-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.searchLocationsResults-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.searchLocationsResults-page-e {
+    width:100%!important
+}
+.orderConfirmation {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.orderConfirmation-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.orderConfirmation-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.orderConfirmation-page-e {
+    width:100%!important
+}
+.byo {
+    height:auto;
+    margin:0 34px!important;
+    min-height:489px;
+    overflow:hidden;
+    padding:110px 0 20px;
+    width:80%
+}
+.byo-page-c {
+    background-color:#000!important;
+    height:100%!important;
+}
+.byo-page-d {
+    width:80%!important;
+    margin-left:235px
+}
+.byo-page-e {
+    width:100%!important
+}
+.ui-res-footer-interior-navigation-container {
+    background-color:transparent!important;
+    color:#fff!important;
+    border-top:10px #3f3f3f solid!important;
+    padding:20px
+}
+.footer {
+    background-color:#000!important
+}
+.footer img {
+    vertical-align:middle
+}
+.about_col {
+    float:left;
+    padding-left:20px;
+    width:47%;
+}
+.about_col ul li {
+    padding-left:30px;
+    padding-top:10px;
+    text-indent:-17px;
+    font-weight:bold;
+    color:#cc2127;
+}
+.about_col ul li:first-child {
+    padding-top:10px;
+}
+.about_col ul li:last-child {
+    padding-bottom:10px;
+}
+.leftcol {
+    margin-left:25px;
+    float:left;
+    width:29.5%;
+    padding-bottom:20px;
+}
+.centercol {
+    float:left;
+    width:29.5%;
+    margin-left:35px;
+    padding-bottom:20px;
+}
+.rightcol {
+    float:left;
+    width:29.5%;
+    margin-left:35px;
+    padding-bottom:20px;
+}
+.rightcol .category_title {
+    margin-top:5px;
+}
+.rightcol .category_title:first-child, .category_title:first-child {
+    margin-top:10px;
+}
+.category_title {
+    background-image:url("//images.webhotel.microsdc.us/boltburger.desktop/get/w/280/h/70/html_menu_header.image");
+    background-repeat:no-repeat;
+    font-size:15px;
+    font-weight:lighter;
+    font-family:'BB_font', sans-serif!important;
+    height:47px;
+    margin-left:-2px;
+    margin-top:25px;
+    padding-left:10px;
+    padding-top:20px;
+    text-transform:uppercase;
+    text-shadow:3px 2px 1px #000;
+    filter:dropshadow(color=#000, offx=3, offy=2);
+}
+.ingredient_title {
+    font-size:20px;
+    font-weight:bold;
+    padding:10px;
+    text-transform:uppercase;
+    background-color:#cc2127;
+    font-weight:lighter;
+    font-family:'BB_font', sans-serif!important;
+    margin-bottom:5px;
+    text-shadow:2px 2px 1px #841f16;
+    filter:dropshadow(color=#841f16, offx=2, offy=2);
+    text-align:center;
+}
+.menu_subtitle {
+    padding:0;
+}
+.captions {
+    font-size:12px;
+    font-style:italic;
+    line-height:15px;
+    list-style:none outside none!important;
+    width:87%;
+}
+.captions2 {
+    font-family:'Ubuntu', sans-serif!important;
+    font-size:12px;
+    font-weight:bold;
+    line-height:15px;
+    padding-left:6px;
+}
+.html-menu {
+    color:#fff!important;
+}
+.about_ingredients ul {
+    list-style-position:inside!important;
+}
+.list_title {
+    display:inline-block;
+    font-family:'Ubuntu', sans-serif;
+    font-size:18px;
+    font-style:italic;
+    font-weight:900;
+    margin-top:10px;
+    width:89%;
+}
+.y_price {
+    color:#ffde3f;
+}
+.item_category_title {
+    font-weight:bold;
+    color:#ffe147;
+}
+.html-menu ul li {
+    list-style-type:disc;
+    font-family:'Ubuntu', sans-serif;
+    line-height:18px;
+}
+.main_list {
+    padding:5px 12px 0 0;
+    margin:0;
+    font-weight:bold;
+}
+.main_list li {
+    border-left:10px solid #cc2127;
+    list-style:none outside none!important;
+    padding-left:10px;
+}
+.about_ingredients {
+    clear:both;
+    height:695px;
+    margin:25px;
+    width:93%;
+}
+.menu_desc {
+    border-left:10px solid #cc2127;
+    padding-left:30px;
+    margin-top:5px;
+    font-weight:bold;
+}
+.specials-a {
+    width:100%!important;
+    position:static!important
+}
+.specials-b {
+    width:100%!important;
+    position:static!important
+}
+.specials-c {
+    clear:both;
+    position:static!important;
+    width:100%!important
+}
+.specials-d {
+    width:80%!important;
+    margin-left:235px;
+    position:static!important;
+}
+.custom-specials p {
+    margin:10px 0!important
+}
+.custom-specials ul li {
+    margin-left:40px!important
+}
+.custom-specials ul {
+    list-style-type:disc!important;
+}
+.custom-specials ul li {
+    line-height:1.2em;
+}
+.specials-e {
+    width:100%!important;
+    position:static!important
+}
+.custom-specials {
+    height:auto;
+    margin:0 34px!important;
+    min-height:585px;
+    overflow:hidden;
+    padding:10px 0 20px!important;
+    width:80%!important;
+}
