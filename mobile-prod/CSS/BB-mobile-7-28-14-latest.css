@@ -10,7 +10,15 @@
     font-family:'BB_font';
     font-style:normal;
     font-weight:normal;
-    src:url("//images.testwebhotel.microsdc.us/boltmobilev3/font/gotham_ultra_italic-webfont-webfont.eot") format("embedded-opentype"), url("//images.testwebhotel.microsdc.us/boltmobilev3/font/gotham_ultra_italic-webfont-webfont.ttf") format("truetype"), url("//images.testwebhotel.microsdc.us/boltmobilev3/font/gotham_ultra_italic-webfont-webfont.woff") format("woff");
+    src:url("//images.testwebhotel.microsdc.us/boltmobilev3/font/gotham_ultra_italic-webfont-webfont.eot") format("embedded-opentype"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.ttf") format("truetype"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.woff") format("woff"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.svg") format("svg");
+}
+@media only screen and (max-width: 480px) {
+    @font-face {
+    font-family:'BB_font';
+    font-style:normal;
+    font-weight:normal;
+    src:url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.svg") format("svg");
+}
 }
 .ui-myres-sbsc-customization-step-container.selected .ui-myres-sbsc-customization-step-buttons-container {
     text-align:right;
