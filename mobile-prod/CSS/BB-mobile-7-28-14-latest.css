@@ -10,7 +10,7 @@
     font-family:'BB_font';
     font-style:normal;
     font-weight:normal;
-    src:url("//images.testwebhotel.microsdc.us/boltmobilev3/font/gotham_ultra_italic-webfont-webfont.eot") format("embedded-opentype"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.ttf") format("truetype"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.woff") format("woff"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.svg") format("svg");
+    src:url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.eot") format("embedded-opentype"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.ttf") format("truetype"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.woff") format("woff"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.svg") format("svg");
 }
 @media only screen and (max-width: 480px) {
     @font-face {
@@ -191,7 +191,7 @@ body.media {
     padding:5px!important;
 }
 .category_title {
-    background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/280/h/70/html_menu_header.image");
+    background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/280/h/70/html_menu_header.image");
     background-repeat:no-repeat;
     font-family:'BB_font', sans-serif!important;
     font-size:15px;
@@ -273,7 +273,7 @@ body.media {
     text-transform:uppercase;
 }
 .print_btn {
-    background-image:url("//images.testwebhotel.microsdc.us/boltmobilev3/get/w/1/h/34/white_btn.image?")!important;
+    background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/1/h/34/white_btn.image?")!important;
     background-color:#fff!important;
     border:3px solid #bbb!important;
     border-radius:.5em!important;
@@ -491,7 +491,7 @@ table.ui-res-login-input-table th, table.ui-res-forgot-password-input-table th, 
     display:none;
 }
 body.sitehome .wrapper {
-    background:url("//images.testwebhotel.microsdc.us/boltmobilev3/get//bolt_img.image?") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background:url("//images.webhotel.microsdc.us/boltmobile/get//bolt_img.image?") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     background-size:90%;
     min-height:568px;
 }
@@ -645,7 +645,7 @@ td.qty select {
     box-shadow:none!important;
 }
 .ui-res-order-basket-items-container.simple table {
-    background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/98/h/211/simple_basket_bolt.image?notfound=notavailable");
+    background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/98/h/211/simple_basket_bolt.image?notfound=notavailable");
     background-position:center center;
     background-repeat:no-repeat;
     font-family:sans-serif;
@@ -782,10 +782,10 @@ div.ui-res-menu-dropdown-container.ui-res-menu-leaf-category-selected {
     margin-bottom:8px!important;
 }
 .pre-order-btn-continue-span, .pre-order-btn-cancel-span {
-    background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/1/h/36/btn_redsml.image");
+    background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/1/h/36/btn_redsml.image");
 }
 .pre-order-btn-cancel-span {
-    background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/1/h/36/btn_green.image");
+    background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/1/h/36/btn_green.image");
 }
 .menu-list-item.ui-myres-menu-list-add-to-cart-view-product-required-hidden:hover, .ui-myres-sbsc-customization-step-container.selected, .menu-list-item.ui-myres-menu-list-add-to-cart-view-product-required-shown {
     background:#2c2c2c!important;
@@ -875,7 +875,7 @@ div.ui-res-my-account-navigation-container ul li.active {
     position:relative;
 }
 .ui-res-dropdown-menu-selected-category-title-container .text-align-right {
-    background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/21/h/23/menu_dropdown.image");
+    background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/21/h/23/menu_dropdown.image");
     background-position:center center;
     background-repeat:no-repeat;
     color:rgba(0, 0, 0, 0);
@@ -975,7 +975,7 @@ a, a:hover, a:active, a:focus, h2 {
 }
 .masthead {
     overflow:visible;
-    background:url("//images.testwebhotel.microsdc.us/mobileboltv2/get/w/1/h/115/header_gradient.image") repeat scroll 0 0 rgba(0, 0, 0, 0)!important;
+    background:url("//images.webhotel.microsdc.us/boltmobile/get/w/1/h/115/header_gradient.image") repeat scroll 0 0 rgba(0, 0, 0, 0)!important;
 }
 .ui-res-header-interior-navigation-container-parent, .ui-res-header-main-navigation-title-container {
     display:none!important;
@@ -999,7 +999,7 @@ select {
 }
 body {
     padding:0!important;
-    background:url("//images.testwebhotel.microsdc.us/boltmobilev3/get//bolt_img_gray.image?") no-repeat scroll 0 0 #232a30;
+    background:url("//images.webhotel.microsdc.us/boltmobile/boltmobilev3/get//bolt_img_gray.image?") no-repeat scroll 0 0 #232a30;
     background-size:90%;
     color:#FFF!important;
     min-height:575px;
@@ -1027,7 +1027,7 @@ body {
     display:none;
 }
 .ui-icon-panel-icon {
-    background:url(//images.testwebhotel.microsdc.us/mobileboltv2/get/w/73/h/55/bolt_nav_icon2.image) no-repeat scroll 0 0 rgba(0, 0, 0, 0)!important;
+    background:url("//images.webhotel.microsdc.us/boltmobile/get/w/73/h/55/bolt_nav_icon2.image") no-repeat scroll 0 0 rgba(0, 0, 0, 0)!important;
     border:0;
     height:47px;
     margin-left:10px;
@@ -1136,7 +1136,7 @@ h1 {
     top:5px;
 }
 .ui-icon-bolt-cart-icon {
-    background:url(//images.testwebhotel.microsdc.us/mobileboltv2/get/w/35/h/27/cart_icon.image)!important;
+    background:url("//images.webhotel.microsdc.us/boltmobile/get/w/35/h/27/cart_icon.image")!important;
     width:35px!important;
     height:27px!important;
     margin-left:-14px!important;
@@ -1145,28 +1145,28 @@ h1 {
     border-radius:0!important;
 }
 .ui-icon-burger {
-    background:url(//images.testwebhotel.microsdc.us/mobileboltv2/get/w/18/h/18/burger_menu_18.image)!important;
+    background:url("//images.webhotel.microsdc.us/boltmobile/get/w/18/h/18/burger_menu_18.image")!important;
     width:18px!important;
     height:18px!important;
     box-shadow:none!important;
     border-radius:0!important;
 }
 .ui-icon-bolt {
-    background:url(//images.testwebhotel.microsdc.us/mobileboltv2/get/w/18/h/18/bolt_menu_18.image)!important;
+    background:url("//images.webhotel.microsdc.us/boltmobile/get/w/18/h/18/burger_menu_18.image")!important;
     width:18px!important;
     height:18px!important;
     box-shadow:none!important;
     border-radius:0!important;
 }
 .ui-icon-locations {
-    background:url(//images.testwebhotel.microsdc.us/mobileboltv2/get/w/18/h/18/locations_menu_18.image)!important;
+    background:url("//images.webhotel.microsdc.us/boltmobile/get/w/18/h/18/burger_menu_18.image")!important;
     width:18px!important;
     height:18px!important;
     box-shadow:none!important;
     border-radius:0!important;
 }
 .big-bolt-static {
-    background:url("http://images.testwebhotel.microsdc.us/boltmobilev3/get//bolt_img.image?notfound=notavailable") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background:url("//images.webhotel.microsdc.us/boltmobile/get//bolt_img.image?notfound=notavailable") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     height:100%;
     min-height:570px;
     left:0;
@@ -1176,7 +1176,7 @@ h1 {
     float:left;
 }
 .big-burger-static {
-    background:url("//images.testwebhotel.microsdc.us/mobileboltv2/get/w/1005/h/568/burger_bckg.image") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background:url("//images.webhotel.microsdc.us/boltmobile/get/w/1005/h/568/burger_bckg.image") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     background-size:cover;
     height:100%;
     min-height:570px;
@@ -1279,7 +1279,7 @@ button.button.button-1.previous-btn {
     border-radius:4px;
 }
 .pre-order-btn-continue-span, background-color:transparent!important;
-background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/1/h/36/btn_redsml.image");
+background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/1/h/36/btn_redsml.image");
 border:2px solid #555!important;
 box-shadow:none!important;
 font-family:'BB_font', sans-serif!important;
@@ -1289,10 +1289,10 @@ text-shadow:2px 2px 2px #555;
 
 }
 .pre-order-btn-cancel-span {
-    background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/1/h/36/btn_green.image");
+    background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/1/h/36/btn_green.image");
 }
 .pre-order-information-title, .ui-res-restricted-category-confirmation-title {
-    background-image:url("//images.testwebhotel.microsdc.us/boltburgerdesktop/get/w/34/h/64/red_popup_txt.image")!important;
+    background-image:url("//images.webhotel.microsdc.us/boltmobile/get/w/34/h/64/red_popup_txt.image")!important;
 }
 .pre-order-information-title, .change-location-information-title, .ui-res-update-to-zero-simple-confirmation-title, .ui-res-restricted-category-confirmation-title, .ui-res-out-of-range-simple-confirmation-title, .ui-res-out-of-range-confirmation-title, .ui-res-update-to-zero-confirmation-title {
     background-color:#870b0b;
@@ -1428,6 +1428,6 @@ text-shadow:2px 2px 2px #555;
 }
 @media only screen and (min-width:585px) {
     body.sitehome {
-        background:url("//images.testwebhotel.microsdc.us/boltmobilev3/get//burger_bckg2.image?") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+        background:url("//images.webhotel.microsdc.us/boltmobile/get//burger_bckg2.image?") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
     }
 }
