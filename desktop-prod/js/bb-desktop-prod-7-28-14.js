@@ -30,6 +30,22 @@
      if($dollarAmount){
          $dollarAmount.hide();   
      }
+/*Runs function necessary for restricted categories to be flagged and not added to cart*/
+	$(function(){
+		$(".locations").click(function() {
+			$.showPageLoadingMsg();
+			if(false){
+				goToPage('/myres/locations/searchLocationsResults.jsp?P_ORDER_TYPE=P_TAKE_OUT');
+			} else {
+				if(false){
+				goToPage('/myres/locations/order_date_time_on_another_page.cmd?P_ORDER_TYPE=P_TAKE_OUT&SELECT_STORE_ID=225');
+				} else {
+				goToPage('/myres/locations/searchLocationsResults.jsp?P_ORDER_TYPE=P_TAKE_OUT&SELECT_STORE_ID=225');
+				}
+			}
+
+		});
+	})
     }); 
 </script><script> 
 $(function() {
