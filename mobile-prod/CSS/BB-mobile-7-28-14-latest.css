@@ -23,6 +23,18 @@
 [data-title="CHOOSE ONE"] .modifier-about-link, [data-title="ADD A BOLT OF CHEESE"] .modifier-about-link, [data-title="ADD A BOLT OF BACON"] .modifier-about-link, [data-title="ADD A BOLT OF RELISH"] .modifier-about-link{
 	display:none;
 }
+
+#menu-item-6466 .menu-list-item-config .config-group-container .config-group-title:after, #menu-item-6467 .menu-list-item-config .config-group-container .config-group-title:after, #menu-item-6468 .menu-list-item-config .config-group-container .config-group-title:after {
+	color: #c33;
+	content: " (CHOOSE ONE)";
+}
+
+
+#menu-item-6466 .menu-list-item-config .config-group-container:last-child .config-group-title:after, #menu-item-6467 .menu-list-item-config .config-group-container:last-child .config-group-title:after, #menu-item-6468 .menu-list-item-config .config-group-container:last-child .config-group-title:after {
+	color: #c33;
+	content: " (CHOOSE ONE OR MORE)";
+}
+
 .res-invalid-field {
 	background-color: white !important;
 	border: 3px solid red !important;
