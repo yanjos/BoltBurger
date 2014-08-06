@@ -13,6 +13,15 @@ $(document).ready(function () {
     if ($('.home-buttons-wrap .home-buttons-wrap').length) {
         $('.home-buttons-wrap:first').replaceWith($('.home-buttons-wrap:first').html());
     }
+	
+	/*Runs function necessary for restricted categories to be flagged and not added to cart*/
+	$(function(){
+		$("[data-tag='rw-search-locations-click'], .locations").click(function() {
+			$.showPageLoadingMsg();
+			goToPage('/myres/locations/searchLocationsResults.jsp?P_ORDER_TYPE=P_TAKE_OUT');
+
+		});
+	})
 
 });
 
