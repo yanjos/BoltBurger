@@ -12,14 +12,22 @@
     font-weight:normal;
     src:url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.eot") format("embedded-opentype"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.ttf") format("truetype"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.woff") format("woff"), url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.svg") format("svg");
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width:480px) {
     @font-face {
-    font-family:'BB_font';
-    font-style:normal;
-    font-weight:normal;
-    src:url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.svg") format("svg");
+        font-family:'BB_font';
+        font-style:normal;
+        font-weight:normal;
+        src:url("//images.webhotel.microsdc.us/boltmobile/font/gotham_ultra_italic.svg") format("svg");
+    }
 }
+[data-title="CHOOSE ONE"] .modifier-about-link, [data-title="ADD A BOLT OF CHEESE"] .modifier-about-link, [data-title="ADD A BOLT OF BACON"] .modifier-about-link, [data-title="ADD A BOLT OF RELISH"] .modifier-about-link{
+	display:none;
 }
+.res-invalid-field {
+	background-color: white !important;
+	border: 3px solid red !important;
+}
+
 .ui-myres-sbsc-customization-step-container.selected .ui-myres-sbsc-customization-step-buttons-container {
     text-align:right;
 }
