@@ -1007,7 +1007,7 @@ select {
 }
 body {
     padding:0!important;
-    background:url("//images.webhotel.microsdc.us/boltmobile/boltmobilev3/get//bolt_img_gray.image?") no-repeat scroll 0 0 #232a30;
+    background:url("//images.webhotel.microsdc.us/boltmobile/get//bolt_img_gray.image?") no-repeat scroll 0 0 #232a30;
     background-size:90%;
     color:#FFF!important;
     min-height:575px;
