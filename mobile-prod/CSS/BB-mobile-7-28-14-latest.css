@@ -178,6 +178,12 @@ body.media {
     width:90%;
     text-align:left;
 }
+.joineclub-copy tr:last-child td {
+    text-align:center;
+}
+.eclub-confirm-copy {
+    margin:10px auto;
+}
 .ui-res-order-date-input-container, .ui-res-order-time-input-container {
     background-color:#fff;
     border-color:#fff;
@@ -1100,6 +1106,9 @@ h1 {
     text-transform:uppercase;
     width:100%;
     white-space:nowrap;
+}
+.eclub-confirm-header h1, .joineclub-title h1 {
+    text-transform:none !important;
 }
 .separator-h {
     height:3px;
