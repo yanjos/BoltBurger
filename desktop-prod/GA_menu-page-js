@@ -1,109 +1,111 @@
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-45868901-1', 'boltburgers.com');
-  ga('require', 'ecommerce');
-  ga('require', 'ec', 'ec.js');
+ga('create', 'UA-45868901-1', 'boltburgers.com');
+ga('require', 'ecommerce');
+ga('require', 'ec', 'ec.js');
+
+// Load event fires when page is loaded completely
+$(window).load(function(){
+    if($('.menu-page-d').length) {
+        var productCategory = $(".ui-res-dropdown-menu-selected-category-title-container td:first").text();
+
+        $('.menu-list-item').each(function (index) {
+            $this = $(this);
+            var productID = $this.attr('id');
+            var productName = $this.find('.menu-list-item-title').text();
+            var position = index + 1;
+
+            ga('ec:addImpression', {
+                'id': productID,
+                'name': productName,
+                'category': productCategory,
+                'list': 'Menu Page',
+                'position': position
+            });
+            ga('send', 'pageview');
+        });
+    }
+});
 
 $(document).ready(function () {
-$('.layout-area menu-page-d').each(function(){
-    var productCategory = $this.find('.ui-res-dropdown-menu-selected-category-container').text();
-
-$('.menu-list-item').each(function(){
-    $this = $(this);
-    var productID = $this.attr('id');
-    var productName = $this.find('.menu-list-item-title').text();
-
-    var numItems = $this.find('.ui-myres-menu-list-add-to-cart-view-product-required').length;
-    
-    ga('create', 'UA-45868901-1', 'boltburgers.com');
-
-    ga('ec:addImpression', {
-        'id': productID,
-        'name': productName,
-        'category': productCategory,
-        'list': 'Menu Page',
-        'position': ''
+    var cellText = $(".ui-res-dropdown-menu-selected-category-title-container td:first").text();
+    $('.menu-list-item').each(function () {
+        var $this = $(this);
+        var $localBuyButton = $this.find(':button.add-to-order-btn');
+        var $localProductName = $this.find('.menu-list-item-title').text();
+        var $localProductPrice = $this.find('.menu-list-item-price').text().replace(/[^0-9.]/g, "");
+        $localBuyButton.on("mousedown tap", function () { // Using "tap" to collect iPad/iPhone data
+            productPrice = Math.round($localProductPrice.replace(/(?!\.)[\D\s]/g, "")); // Decimals are not allowed in Events. We strips away everything except numbers and . (dot), and then we round the number.
+            var productQuantity = 1;
+            var totalSum = productPrice * 1;
+            if (productQuantity > 0) { // Only track the product if quantity > 0
+                // Send data to Google Analytics
+                ga("send", "event", {
+                    eventCategory: cellText,
+                    eventAction: "Items",
+                    eventLabel: $localProductName,
+                    eventValue: Number(productQuantity),
+                    metric1: Number(totalSum),
+                    dimension1: "Add to Cart"
+                });
+            }
+        });
     });
 
-    ga('send', 'pageview');
-    
-	});
+    $(".basket-item-container a:contains('Remove')").live("mousedown tap", function () { // Using "tap" to collect iPad/iPhone data
+        var $this = $(this);
+        var $closestBasketItem = $this.closest('.basket-item-container');
+        var $localProductName = $closestBasketItem.find('.title.item').text();
+        var $localProductPrice = $closestBasketItem.find('.price').text().replace(/[^0-9.]/g, "");
 
-	});
-});
-                         
-$(document).ready(function () {
-        var cellText = $(".ui-res-dropdown-menu-selected-category-title-container td:first").text();
-        $('.menu-list-item').each(function () {
-            var $this = $(this);
-            var $localBuyButton = $this.find(':button.add-to-order-btn');
-            var $localProductName = $this.find('.menu-list-item-title').text();
-            var $localProductPrice = $this.find('.menu-list-item-price').text().replace(/[^0-9.]/g, "");
-            $localBuyButton.on("mousedown tap", function () { // Using "tap" to collect iPad/iPhone data
-                productPrice = Math.round($localProductPrice.replace(/(?!\.)[\D\s]/g, "")); // Decimals are not allowed in Events. We strips away everything except numbers and . (dot), and then we round the number.
-                var productQuantity = 1;
-                var totalSum = productPrice * 1;
-                if (productQuantity > 0) { // Only track the product if quantity > 0
-                    // Send data to Google Analytics
-                    ga("send", "event", {
-                        eventCategory: cellText,
-                        eventAction: "Items",
-                        eventLabel: $localProductName,
-                        eventValue: Number(productQuantity),
-                        metric1: Number(totalSum),
-                        dimension1: "Add to Cart"
-                    });
-                }
-            });
+        var productQuantity = 1;
+        // Decimals are not allowed in Events. We strips away everything except numbers and . (dot), and then we round the number.
+        var productPrice = Math.round($localProductPrice.replace(/(?!\.)[\D\s]/g, ""));
+        var totalSum = productPrice;
+
+        // Send data to Google Analytics
+        ga("send", "event", {
+            eventCategory: "Basket Menu Remove",
+            eventAction: "Remove",
+            eventLabel: $localProductName,
+            eventValue: Number(productQuantity),
+            metric2: Number(totalSum),
+            dimension2: "Remove item from cart"
         });
-   
-		$(".basket-item-container a:contains('Remove')").live("mousedown tap", function () { // Using "tap" to collect iPad/iPhone data
-			var $this = $(this);
-			var $closestBasketItem = $this.closest('.basket-item-container');
-			var $localProductName = $closestBasketItem.find('.title.item').text();
-			var $localProductPrice = $closestBasketItem.find('.price').text().replace(/[^0-9.]/g, "");
-			
-			var productQuantity = 1;
-			// Decimals are not allowed in Events. We strips away everything except numbers and . (dot), and then we round the number.
-			var productPrice = Math.round($localProductPrice.replace(/(?!\.)[\D\s]/g, "")); 
-			var totalSum = productPrice;
+    });
 
-			// Send data to Google Analytics
-			ga("send", "event", {
-				eventCategory: "Basket Menu Remove",
-				eventAction: "Remove",
-				eventLabel: $localProductName,
-				eventValue: Number(productQuantity),
-				metric2: Number(totalSum),
-				dimension2: "Remove item from cart"
-			});
-		});
-	
-		$('.ui-myres-sbsc-add-to-cart-modal').each(function () {
-			var $this = $(this);
-			var $localProductName = $this.find('.ui-myres-sbsc-add-to-cart-product-title').text();
-			var $localProductPrice = $this.find('.ui-myres-sbsc-add-to-cart-item-total-value').text().replace(/[^0-9.]/g, "");
-			var $localBuyButton = $this.find(':button.ui-myres-sbsc-add-to-cart-continue-ordering-btn, :button.ui-myres-sbsc-add-to-cart-view-your-order-btn');
+    $('.ui-myres-sbsc-add-to-cart-modal').each(function () {
+        var $this = $(this);
+        var $localProductName = $this.find('.ui-myres-sbsc-add-to-cart-product-title').text();
+        var $localProductPrice = $this.find('.ui-myres-sbsc-add-to-cart-item-total-value').text().replace(/[^0-9.]/g, "");
+        var $localBuyButton = $this.find(':button.ui-myres-sbsc-add-to-cart-continue-ordering-btn, :button.ui-myres-sbsc-add-to-cart-view-your-order-btn');
 
-			$localBuyButton.on("mousedown tap", function () { // Using "tap" to collect iPad/iPhone data
-				productPrice = Math.round($localProductPrice.replace(/(?!\.)[\D\s]/g, "")); // Decimals are not allowed in Events. We strips away everything except numbers and . (dot), and then we round the number.
-				var quantity = 1;
-				var productQuantity = quantity;
-				var totalSum = productPrice * productQuantity;
-				if (productQuantity > 0) { // Only track the product if quantity > 0
-					// Send data to Google Analytics
-					ga("send", "event", {
-						eventCategory: $localProductName,
-						eventAction: "Add to Cart",
-						eventLabel: $localProductName,
-						eventValue: Number(productQuantity),
-						metric1: Number(totalSum),
-						dimension1: "Add to Cart:Create your own Burger"
-					});
-				}
-			});
-		});
+        $localBuyButton.on("mousedown tap", function () { // Using "tap" to collect iPad/iPhone data
+            productPrice = Math.round($localProductPrice.replace(/(?!\.)[\D\s]/g, "")); // Decimals are not allowed in Events. We strips away everything except numbers and . (dot), and then we round the number.
+            var quantity = 1;
+            var productQuantity = quantity;
+            var totalSum = productPrice * productQuantity;
+            if (productQuantity > 0) { // Only track the product if quantity > 0
+                // Send data to Google Analytics
+                ga("send", "event", {
+                    eventCategory: $localProductName,
+                    eventAction: "Add to Cart",
+                    eventLabel: $localProductName,
+                    eventValue: Number(productQuantity),
+                    metric1: Number(totalSum),
+                    dimension1: "Add to Cart:Create your own Burger"
+                });
+            }
+        });
+    });
 });
