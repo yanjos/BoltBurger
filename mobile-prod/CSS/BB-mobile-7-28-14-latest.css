@@ -1002,7 +1002,7 @@ a, a:hover, a:active, a:focus, h2 {
 .ui-res-header-interior-navigation-container-parent, .ui-res-header-main-navigation-title-container {
     display:none!important;
 }
-select {
+select, textarea {
     color:#666;
 }
 .ui-res-locations-search-criteria .float-left {
@@ -1108,7 +1108,7 @@ h1 {
     white-space:nowrap;
 }
 .eclub-confirm-header h1, .joineclub-title h1 {
-    text-transform:none !important;
+    text-transform:none!important;
 }
 .separator-h {
     height:3px;
