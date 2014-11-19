@@ -1,10 +1,11 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu);
-@import url(//fonts.googleapis.com/css?family=Magra:400,700);
 @font-face {
     font-family:"BB_font";
     font-style:normal;
     font-weight:normal;
     src:url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.eot#iefix") format("embedded-opentype"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.woff") format("woff"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.ttf") format("truetype"), url("//images.webhotel.microsdc.us/boltburger.desktop/font/gotham_ultra_italic-webfont.svg#gotham_ultraitalic") format("svg");
+}
+.temp-order-confirmation-id {
+    display:none;
 }
 #menu-item-6466 .menu-list-item-config .config-group-container:last-child .config-group-title:after, #menu-item-6467 .menu-list-item-config .config-group-container:last-child .config-group-title:after, #menu-item-6468 .menu-list-item-config .config-group-container:last-child .config-group-title:after {
     color:#c33;
@@ -654,7 +655,7 @@ button {
     border:0 none!important;
     color:#000!important;
     cursor:pointer;
-    font-family:'Magra', sans-serif;
+    font-family:sans-serif;
     font-size:.94em;
     font-weight:bold;
     height:59px;
@@ -675,7 +676,7 @@ button {
     border:0 none!important;
     color:#000!important;
     cursor:pointer;
-    font-family:'Magra', sans-serif;
+    font-family:sans-serif;
     font-size:.94em;
     font-weight:bold;
     height:59px;
@@ -1330,10 +1331,10 @@ div.ui-res-my-account-navigation-container ul li.active {
     box-shadow:inset 0 3px 15px #7f0002;
 }
 button.rhomebtn.locations {
-	width: 200px !important;
-	vertical-align: top;
-	height: 40px;
-	border-radius: 5px 5px !important;
+    width:200px!important;
+    vertical-align:top;
+    height:40px;
+    border-radius:5px 5px!important;
 }
 .yhomebtn {
     background-color:#f9cf70;
@@ -2598,7 +2599,7 @@ table.ui-res-checkout-input-table th {
     width:87%;
 }
 .captions2 {
-    font-family:'Ubuntu', sans-serif!important;
+    font-family:sans-serif!important;
     font-size:12px;
     font-weight:bold;
     line-height:15px;
@@ -2612,7 +2613,7 @@ table.ui-res-checkout-input-table th {
 }
 .list_title {
     display:inline-block;
-    font-family:'Ubuntu', sans-serif;
+    font-family:sans-serif;
     font-size:18px;
     font-style:italic;
     font-weight:900;
@@ -2694,4 +2695,19 @@ table.ui-res-checkout-input-table th {
     overflow:hidden;
     padding:10px 0 20px!important;
     width:80%!important;
+}
+p#vipCode {
+    display:none;
+}
+p#passportNo {
+    display:none;
+}
+p#countryOfIssue {
+    display:none;
+}
+p#placeOfIssue {
+    display:none;
+}
+p#effectiveDate {
+    display:none;
 }
